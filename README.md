@@ -12,27 +12,27 @@ To predict patient survival using machine learning models based on diagnostic da
 
 ## Dataset
 
-The dataset contains comprehensive patient information, focused on lung cancer diagnostics and outcomes.
+The dataset contains comprehensive patient information focused on lung cancer diagnostics and outcomes.
 
 ### Features
 
-- **Age**: The age at the time of diagnosis or treatment.
-- **Gender**: The gender of the patient (male or female).
-- **Smoking**: Whether the patient is a smoker or not.
-- **Hx Smoking**: Smoking history of the patient (e.g., whether they have ever smoked).
-- **Hx Radiotherapy**: History of radiotherapy treatment for any condition.
-- **Thyroid Function**: The status of thyroid function, possibly indicating abnormalities.
-- **Physical Examination**: Findings from a physical examination of the patient.
-- **Adenopathy**: Presence or absence of enlarged lymph nodes (adenopathy) in the neck region.
-- **Pathology**: Specific type of thyroid cancer determined by pathological examination.
-- **Focality**: Whether the cancer is unifocal (limited to one location) or multifocal (present in multiple locations).
-- **Risk**: The risk category of the cancer based on tumor size, spread extent, and histological type.
-- **T**: Tumor classification based on size and extent of invasion into nearby structures.
-- **N**: Nodal classification indicating lymph node involvement.
-- **M**: Metastasis classification indicating distant metastases presence or absence.
-- **Stage**: The overall stage of the cancer, typically determined by combining T, N, and M classifications.
-- **Response**: Response to treatment, indicating whether the cancer responded positively, negatively, or remained stable after treatment.
-- **Recurred**: Indicates whether the cancer recurred after initial treatment.
+- **id**: A unique identifier for each patient in the dataset.
+- **age**: The age of the patient at the time of diagnosis.
+- **gender**: The gender of the patient (e.g., male, female).
+- **country**: The country or region where the patient resides.
+- **diagnosis_date**: The date on which the patient was diagnosed with lung cancer.
+- **cancer_stage**: The stage of lung cancer at the time of diagnosis (e.g., Stage I, Stage II, Stage III, Stage IV).
+- **family_history**: Indicates whether there is a family history of cancer (e.g., yes, no).
+- **smoking_status**: The smoking status of the patient (e.g., current smoker, former smoker, never smoked, passive smoker).
+- **bmi**: The Body Mass Index of the patient at the time of diagnosis.
+- **cholesterol_level**: The cholesterol level of the patient (value).
+- **hypertension**: Indicates whether the patient has hypertension (e.g., yes, no).
+- **asthma**: Indicates whether the patient has asthma (e.g., yes, no).
+- **cirrhosis**: Indicates whether the patient has cirrhosis of the liver (e.g., yes, no).
+- **other_cancer**: Indicates whether the patient has had any other type of cancer in addition to the primary diagnosis (e.g., yes, no).
+- **treatment_type**: The type of treatment the patient received (e.g., surgery, chemotherapy, radiation, combined).
+- **end_treatment_date**: The date on which the patient completed their cancer treatment or died.
+- **survived**: Indicates whether the patient survived (e.g., yes, no).
 
 ---
 
